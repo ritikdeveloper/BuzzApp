@@ -18,6 +18,7 @@
             android:layout_height="50dp"
             android:layout_width="match_parent"
             android:layout_alignParentStart="true"
+            android:background="@color/colorBlue"
             >
 
             <RelativeLayout
@@ -29,22 +30,20 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_alignParentLeft="true"
-                    android:background="@android:color/white"
+                    android:background="@color/colorBlue"
                     android:scaleType="fitCenter"
                     android:src="@drawable/close" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Add New Post"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:maxLines="1"
-                    android:textColor="@android:color/black"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="6dp"
                     android:layout_centerInParent="true"
-                    />
+                    android:layout_marginLeft="6dp"
+                    android:maxLines="1"
+                    android:text="Add New Post"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <ImageButton
                     android:id="@+id/post_picture"
@@ -53,7 +52,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerInParent="true"
                     android:layout_marginEnd="5dp"
-                    android:background="@android:color/white"
+                    android:background="@color/colorBlue"
                     android:scaleType="fitCenter"
                     android:src="@drawable/save_edited_info" />
             </RelativeLayout>

@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:id="@+id/app_bar_layout_notification"
+        android:backgroundTint="@color/colorBlue"
         >
 
         <androidx.appcompat.widget.Toolbar
